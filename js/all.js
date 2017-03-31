@@ -59,4 +59,7 @@ $(document).ready(function() {
             }, 800, 'easeInOutExpo');
             return false;
         });
+
+		$('#on-scro').animateCss('bounce');
+
 	});

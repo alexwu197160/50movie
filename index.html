@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>--50度美味廚房--</title>
+	<title>50度美味廚房</title>
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<![endif]-->
@@ -10,6 +10,8 @@
 	<!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="shortcut icon" href="images/favicon-50.ico">
+	<!-- lightbox_image CSS  -->
+	<link rel="stylesheet" href="css/lightbox.min.css">
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 	<!--Let browser know website is optimized for mobile-->
@@ -17,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!-- font-awesome cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link rel="stylesheet" href="css/animate.min.css">
 </head>
 <body>
 	<nav class="orange darken-4">
@@ -41,7 +43,7 @@
 
 	<!-- kv-bg -->
 	<div class="parallax-container">
-		<h2 class="white-text shadow-text vcenter">與朋友們分享現做手工美食甜點<br>就在50度美味手工坊</h2>
+		<h2 class="white-text shadow-text vcenter animated bounceInDown">與朋友們分享現做手工美食甜點<br>就在50度美味手工坊</h2>
 		<div class="icons_dom">
 			<div class="row">
 				<a href="javascript:void(0);" class="chageVolume right white-text" rel="靜音"><i class="small material-icons">volume_off</i></a>
@@ -84,24 +86,24 @@
 
 	<!-- text -->
 	<div class="section white">
-		<div class="row container">
-		  <div class="col s12 m6">
-			<h4>人生不可少的美味甜點</h4>
-			<p>你喜還甜點嗎?有一種甜點千萬別錯過!!</p>
-			<p>私藏美味隨時為您準備著</p>
-			<p>蛋糕甜點通通可以宅配到府，人氣點心美食，限時團購等著你...</p>
-		  </div>
-		  <div class="col s12 m6">
-			<h4>女生最愛的甜點下午茶喜歡就來找一找吧!!</h4>
-			<p>忙碌的上班生活，總是免不了要來去愛吃跟愛買</p>
-			<p>超人氣好初手工糖果點心好吃都在這</p>
-			<p>大家一起來品嚐美食無數的宅配甜點</p>
-		  </div>
+		<div class="row container ">
+			<div class="col s12 m6 animated bounceInDown">
+				<h4>人生不可少的美味甜點</h4>
+				<p>你喜還甜點嗎?有一種甜點千萬別錯過!!</p>
+				<p>私藏美味隨時為您準備著</p>
+				<p>蛋糕甜點通通可以宅配到府，人氣點心美食，限時團購等著你...</p>
+	  		</div>
+			<div class="col s12 m6 animated bounceInDown">
+				<h4>女生最愛的甜點下午茶喜歡就來找一找吧!!</h4>
+				<p>忙碌的上班生活，總是免不了要來去愛吃跟愛買</p>
+				<p>超人氣好初手工糖果點心好吃都在這</p>
+				<p>大家一起來品嚐美食無數的宅配甜點</p>
+			</div>
 		</div>
 	</div>
 		<!-- bg -->
 	<div class="parallax-container">
-	<h2 class="white-text shadow-text vcenter">我們的任勞任怨五星級烹飪主廚</h2>
+	<h2 class="white-text shadow-text vcenter animated bounceInDown">我們的任勞任怨五星級烹飪主廚</h2>
 	    <div class="parallax">
 	    <img src="images/baby_cooking.jpg">
 	    </div>
@@ -109,24 +111,27 @@
 	<!-- text -->
 	<div class="section orange lighten-4" id="food_info">
 	<div class="col s12">
-		<h4 class="center-align">超正點系列菜單</h4>
+		<h4 class="center-align animated bounceInDown">超正點系列菜單</h4>
 	</div>
 		<div class="row">
-		  <div class="col s12 m6 l4 center-align">
-		  	<img src="images/photo-1.jpg" class="responsive-img">
-		  </div>
-		  <div class="col s12 m6 l4 center-align">
-		  	<img src="images/photo-2.jpg" class="responsive-img">
-		  </div>
-		  <div class="col s12 m6 l4 center-align">
-		  	<img src="images/photo-3.jpg" class="responsive-img">
-		  </div>
-		  <div class="col s12 m6 l4 center-align">
-		  	<img src="images/photo-4.jpg" class="responsive-img">
-		  </div>
-		  <div class="col s12 m6 l4 center-align">
-		  	<img src="images/photo-5.jpg" class="responsive-img">
-		  </div>
+			<div class="col s12 m6 l4">
+		      <a class="example-image-link" href="images/photo-1-sm.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+		      <img class="example-image responsive-img" src="images/photo-1.jpg" alt=""/></a>
+		    </div>
+
+		    <div class="col s12 m6 l4"><a class="example-image-link" href="images/photo-2-sm.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image responsive-img" src="images/photo-2.jpg" alt="" /></a>
+		    </div>
+
+		    <div class="col s12 m6 l4"><a class="example-image-link" href="images/photo-3-sm.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image responsive-img" src="images/photo-3.jpg" alt="" /></a>
+		    </div>
+
+			<div class="col s12 m6 l4">
+		      <a class="example-image-link" href="images/photo-4-sm.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image responsive-img" src="images/photo-4.jpg" alt="" /></a>
+		    </div>
+
+		    <div class="col s12 m6 l4">
+		      <a class="example-image-link" href="images/photo-5-sm.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image responsive-img" src="images/photo-5.jpg" alt="" /></a>
+		    </div>
 		</div>
 	</div>
 
@@ -178,8 +183,10 @@
         </footer>
 
 	<!-- Compiled and minified JavaScript -->
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	<script src="js/all.js"></script>
+
 </body>
 </html>
