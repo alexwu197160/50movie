@@ -60,6 +60,4 @@ $(document).ready(function() {
             return false;
         });
 
-		$('#on-scro').animateCss('bounce');
-
-	});
+});
