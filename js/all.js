@@ -60,4 +60,10 @@ $(document).ready(function() {
             return false;
         });
 
+        // lightbox  //
+		lightbox.option({
+	    'resizeDuration': 500,
+	    'wrapAround': true
+		});
+
 });
