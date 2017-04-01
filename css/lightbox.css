@@ -170,6 +170,7 @@ body.lb-disable-scrolling {
   float: left;
   text-align: left;
   line-height: 1.1em;
+  display: none !important;
 }
 
 .lb-data .lb-caption {
